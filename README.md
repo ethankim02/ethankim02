@@ -1,37 +1,41 @@
 # Ethan Kim
 
-Industrial Engineering & Applied Statistics student interested in
-data, fintech, and blockchain infrastructure.
+Industrial Engineering & Applied Statistics student building data-intensive products and financial infrastructure.
 
-I build systems at the intersection of:
+I work where **data systems, payments, fintech, and blockchain infrastructure** meet—turning ambiguous product problems into reliable, testable software.
 
-**Data · Statistics · Payments · Web3**
+## Selected work
 
-## Featured Projects
+| Project | What it does | Engineering highlights |
+|---|---|---|
+| [**x402 Treasury**](https://github.com/ethankim02/x402-treasury) | Programmable spending controls for autonomous AI agents using x402 | Atomic hierarchical budgets, idempotent execution, append-only PostgreSQL ledger, deterministic routing, Base Sepolia settlement, **106 automated tests** |
+| [**EventStream Analytics**](https://github.com/ethankim02/eventstream-analytics) | Product analytics and experimentation for high-volume event streams, demonstrated on real stablecoin activity | Python, SQL, DuckDB, cohort and lifecycle analysis across **5.67M transfer events** and **408K wallets**, **152 automated tests** |
 
-### x402 Treasury
-Programmable spending infrastructure for autonomous AI agents using x402.
+## Team projects
 
-- TypeScript / PostgreSQL
-- Atomic budget reservations and append-only ledger
-- Deterministic provider routing
-- Real Base Sepolia x402 settlement
-- 106 automated tests
+| Project | What we built | My contribution |
+|---|---|---|
+| [**Veilance**](https://github.com/ethankim02/Veilance) | Privacy-preserving supply-chain provenance and policy verification using zero-knowledge proofs on Midnight | Contributed extensively to implementation and integration across the codebase |
+| [**Creator Revenue Bridge**](https://github.com/ethankim02/creator-revenue-bridge) | An RWA-based advance-financing platform that structures creators' future platform revenue as on-chain revenue rights | Researched the RWA model, verification and enforcement constraints, and developed the accompanying article |
 
-[View project →](https://github.com/ethankim02/x402-treasury)
+## What I care about
 
-### EventStream Analytics
-Product analytics and experimentation for high-volume event streams,
-demonstrated on real stablecoin activity.
+- Building systems whose guarantees hold under concurrency, retries, and failure
+- Turning large behavioral datasets into clear product decisions
+- Making financial and blockchain infrastructure auditable and explainable
+- Backing claims with tests, reproducible demos, and real-world data
 
-- Python / SQL / DuckDB
-- 5.67M real Base USDC transfer events
-- 408K observed wallets
-- Cohort, lifecycle, segmentation and concentration analytics
-- 152 automated tests
+## Toolbox
 
-[View project →](https://github.com/ethankim02/eventstream-analytics)
+**Languages:** Python · TypeScript · SQL · Solidity · R  
+**Data:** PostgreSQL · DuckDB · data modeling · experimentation · forecasting  
+**Systems:** REST APIs · event pipelines · concurrency control · idempotency · CI  
+**Web3 & payments:** x402 · Base · smart contracts · on-chain data
 
-## Interests
+## Current focus
 
-Product Analytics · Data Science · Fintech · Payments · Blockchain
+Designing dependable infrastructure for autonomous payments and building analytics systems that connect product behavior to measurable outcomes.
+
+---
+
+Explore the repositories above for architecture notes, reproducible demos, and implementation details.
